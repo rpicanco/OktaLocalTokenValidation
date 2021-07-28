@@ -1,7 +1,7 @@
 # OktaLocalTokenValidation
 A local token validation functionality for tokens issued by Okta Authorization Server. 
 
-### Prerequisites
+# Prerequisites
 
 1. Create an account in Okta website;
 2. Create an app;

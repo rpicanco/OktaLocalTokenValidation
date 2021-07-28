@@ -3,7 +3,6 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/oktaLocalTokenValidation.iml" filepath="$PROJECT_DIR$/.idea/oktaLocalTokenValidation.iml" />
-      <module fileurl="file://$PROJECT_DIR$/tokenLocalValidation.iml" filepath="$PROJECT_DIR$/tokenLocalValidation.iml" />
     </modules>
   </component>
 </project>

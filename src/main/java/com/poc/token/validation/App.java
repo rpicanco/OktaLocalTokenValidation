@@ -11,16 +11,16 @@ public class App
 {
     public static void main( String[] args )
     {
-        final String API_DEFAULT = "api://default";
-        final String ISSUER = "https://dev-90175074.okta.com/oauth2/default";
+        String apiDefault = args[0];
+        String issuer = args[1];
 
         AccessTokenVerifier jwtVerifier = JwtVerifiers.accessTokenVerifierBuilder()
-                .setIssuer(ISSUER)
-                .setAudience(API_DEFAULT)
+                .setIssuer(issuer)
+                .setAudience(apiDefault)
                 .setConnectionTimeout(Duration.ofSeconds(10)) // defaults to 1s
                 .build();
 
-        String tokenToValidate = args[0];
+        String tokenToValidate = args[2];
 
         try {
             Jwt jwt = jwtVerifier.decode(tokenToValidate);

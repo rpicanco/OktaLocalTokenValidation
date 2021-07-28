@@ -7,7 +7,7 @@ A local token validation functionality for tokens issued by Okta Authorization S
 2. Create an app;
 3. Generate a token for the app;
 
-## Usage
+# Usage
 
 Program accepts as input in this sequence:
 

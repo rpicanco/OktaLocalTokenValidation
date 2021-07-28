@@ -5,7 +5,7 @@ A local token validation functionality for tokens issued by Okta Authorization S
 
 1. Create an account in Okta website;
 2. Create an app;
-3. Create a token for the app;
+3. Generate a token for the app;
 
 ## Usage
 

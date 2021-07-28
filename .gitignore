@@ -1,3 +1,4 @@
-/target/**
+.idea/
+target/
 dependency-reduced-pom.xml
 tokenLocalValidation

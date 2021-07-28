@@ -17,7 +17,7 @@ public class App
         AccessTokenVerifier jwtVerifier = JwtVerifiers.accessTokenVerifierBuilder()
                 .setIssuer(issuer)
                 .setAudience(apiDefault)
-                .setConnectionTimeout(Duration.ofSeconds(10)) // defaults to 1s
+                .setConnectionTimeout(Duration.ofSeconds(10))
                 .build();
 
         String tokenToValidate = args[2];

@@ -3,7 +3,7 @@ A local token validation functionality for tokens issued by Okta Authorization S
 
 ### Prerequisites
 
-1. Create an account in Okta website;
+1. Create an account in [Okta website](https://developer.okta.com/signup/);
 2. Create an app;
 3. Generate a token for the app;
 
